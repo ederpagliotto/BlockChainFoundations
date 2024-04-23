@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Experience - Café Haven</title>
+  <link rel="stylesheet" href="/src/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"></script>
+  <script src="/src/script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link active" href="/experience">Coffee Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/plans">Plans</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <a class="metamask" href="#" onclick="connectMetamask()">
+              <!--icon from icons8-->
+              <img src="/assets/icons/icons8-metamask-48.png" alt="metamask icon">
+            </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container-body">
+    <h2>Coffee Experience</h2>
+    <p class="main-text">Explore the wonderful experiences that a good café can offer to its customers. From rich flavors to cozy ambiances, cafés are the perfect places to relax and enjoy your favorite brew. Dive into the world of coffee culture and immerse yourself in its delights.</p>
+
+    <div class="table-container">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Cafeteria</th>
+            <th scope="col">Location</th>
+            <th scope="col">Satisfaction Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Café Haven</td>
+            <td>New York, USA</td>
+            <td>★★★★★</td>
+          </tr>
+          <tr>
+            <td>Java Junction</td>
+            <td>London, UK</td>
+            <td>★★★★☆</td>
+          </tr>
+          <tr>
+            <td>Espresso Express</td>
+            <td>Paris, France</td>
+            <td>★★★★★</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="main-text">These are some of our biggest clients. If you want to enjoy the same level of satisfaction, check out our <a class="plans-text-link" href="/plans"><b>plans</b></a> and start your coffee journey today!</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <footer class="footer">
+    <div class="footer-copyright">
+      <p>&copy; 2024 - Eder Pagliotto</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 20px;
+  display: flex; 
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  border-bottom: 1px solid #C0C0C0;
+}
+
+li {
+  padding-right: 40px;
+}
+.nav-link.active {
+  font-weight: bold;
+}
+
+.metamask img {
+  cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.metamask img:hover {
+  transform: scale(0.8);
+  filter: grayscale(80%);
+}
+
+.container-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.main-text {
+text-align: center;
+}
+
+.main-text-link {
+  text-decoration: none;
+  color: black;
+}
+
+.plans-text-link {
+  color: black;
+}
+
+.container-plans {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.plan {
+  padding-top: 20px;
+}
+
+.subscribe-link {
+  color: black
+}
+
+.barista {
+  margin-top: 30px;
+}
+
+.cancel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;  
+}
+
+.important {
+  margin-top: 30px;
+}
+
+.warning {
+  font-weight: bold;
+  color: red;
+}
+
+.warning-link {
+  color: black;
+}
+
+.carousel {
+  width: 100vh;
+  height: auto;
+}
+
+h5{
+  color: white;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px black;
+}
+
+.carousel-caption {
+  text-shadow: 1px 1px 1px black;  
+  width: fit-content;
+  background: rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#coffeeList {
+  width: 300px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+}
+#coffeeList img {
+  width: 100%;
+  display: none;
+}
+
+.footer {
+  border-top: 1px solid #C0C0C0;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}

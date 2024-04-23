@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscription Plans - Café Haven</title>
+  <link rel="stylesheet" href="/src/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"></script>
+  <script src="/src/script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/experience">Coffee Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/plans">Plans</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <a class="metamask" href="#" onclick="connectMetamask()">
+              <!--icon from icons8-->
+              <img src="/assets/icons/icons8-metamask-48.png" alt="metamask icon">
+            </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container-plans">
+    <h2>Subscription Plans</h2>
+    <div class="plan">
+      <h4>BrewMaster Lifetime Subscription</h4>
+      <p>Unlock unlimited access to our premium coffee machines, Brazilian coffee beans, and expert consultancy services with our BrewMaster Lifetime Subscription. Elevate your coffee experience today!</p>
+      <a class="subscribe-link" href="/brewmasterplan"><b>Select BrewMaster Lifetime</b></a>
+    </div>
+    <div class="plan barista">
+      <h4>Barista's Delight Plan (1-year)</h4>
+      <p>Indulge in the richness of Brazilian coffee beans and enhance your coffee-making skills with our Barista's Delight Forever Plan. Join us on a journey to coffee perfection!</p>
+      <a class="subscribe-link" href="/baristaplan"><b>Select Barista's Delight</b></a>
+    </div>
+
+    <div class="important">
+      <p class="warning">IMPORTANT! Before proceeding, please check your wallet address by <a class="warning-link" href="javascript:displayWalletAddress()">clicking here</a>!</p>
+      <p id="walletAddress"></p </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <footer class="footer">
+      <div class="footer-copyright">
+        <p>&copy; 2024 - Eder Pagliotto</p>
+      </div>
+    </footer>
+</body>
+
+
+</html>
